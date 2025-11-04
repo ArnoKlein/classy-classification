@@ -30,7 +30,7 @@ packages = [{include = "classy_classification"}]
 [tool.poetry.dependencies]
 python = ">=3.8,<3.13"
 spacy = {version = "^3.0"}
-spacy-transformers = {git = "https://github.com/explosion/spacy-transformers", branch = "master"}
+spacy-transformers = {git = "https://github.com/ArnoKlein/spacy-transformers", branch = "master"}
 sentence-transformers = "^3.0"
 scikit-learn = "^1.0"
 pandas = ">=1,<2"
